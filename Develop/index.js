@@ -17,7 +17,7 @@ const questions = [
 
   {
     type: 'input',
-    name: 'Description', 
+    name: 'description', 
     message: "Description of Project"
   }, 
 
@@ -56,9 +56,16 @@ const questions = [
   {
     type: "input", 
     name: "email", 
-    message: "Put in your github email", 
+    message: "Put in your Github email", 
     
   }, 
+
+  {
+    type: "input", 
+    name: "tests", 
+    message: "Name Some tests you can run", 
+
+  }
 
 
 
