@@ -1,25 +1,28 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {
+function renderLicenseBadge(selectlicense) {
+  //console.log("Rendering badge for license:", selectedLicense); 
+  
+  
 
-  if (license==="") {
+  if (selectlicense==="") {
     return ""; 
   }
-  else if (license==='MIT') {
+  else if (selectlicense=="MIT") {
   return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
 
   }
 
-  else if (license==="GNU") {
-    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'
+  else if (selectlicense=="GNU") {
+    return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)'; 
   }
  
-  else if (license==='Apache') {
+  else if (selectlicense=="Apache") {
 
     return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)'; 
   }
 
-  else if (license==='Boost') {
+  else if (selectlicense=="Boost") {
 
     return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)'; 
   }
@@ -36,26 +39,29 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { 
-  if (license==="") {
+function renderLicenseLink(selectlicense) { 
+  console.log("Rendering link for license:", selectlicense); 
+  console.log(typeof selectlicense); 
+   
+  if (selectlicense==="") {
     return ""; 
   }
-  else if (license==='MIT') {
+  else if (selectlicense==="MIT") {
   return 'https://opensource.org/licenses/MIT';
   }
 
-  else if (license==='GNU') {
+  else if (selectlicense==="GNU") {
     return 'https://www.gnu.org/licenses/gpl-3.0.html';
     }
  
-  else if (license==='Apache') {
+  else if (selectlicense==="Apache") {
 
     return 'https://www.apache.org/licenses/LICENSE-2.0'; 
   }
 
-  else if (license==='Boost') {
+  else if (selectlicense==="Boost") {
 
-    return 'https://opensource.org/licenses/BSD-3-Clause'; 
+    return 'https://www.boost.org/LICENSE_1_0.txt'; 
   }
 
   //else {
@@ -68,14 +74,14 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {
+function renderLicenseSection(selectlicense) {
   
-  if (!license) {
-    return '##License\nNo license noted;'
+  if (!selectlicense) {
+    return '## License\nNo license provided.';
   }
 
   else {
-    return `##License\n${renderLicenseBadge(license)}\n The license for the project is [${license}] and here is the link [${renderLicenseLink(license)}]`; 
+    return `## License\n${renderLicenseBadge(selectlicense)}\n The license for the project is [${selectlicense}] and here is the link [${renderLicenseLink(selectlicense)}]`; 
      
 
   }
@@ -85,42 +91,44 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
-          ##License
-          ${renderLicenseSection(data.selectlicense)}
+        
+${renderLicenseSection(data.selectlicense)}
 
-          ## Table of Contents
-          -[Description](#Description)
-          -[Installation](#Installation)
-          -[Usage](#Usage)
-          -[Contrubution](#Contributing)
-          -[Testing](#Test)
-          -[Question](#Questions)
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contribution](#contributing)
+- [Testing](#test)
+- [Question](#questions)
 
-          ## Description:
+## Description:
           
           ${data.description}
 
-          ## Installation:
+## Installation:
           ${data.installation}
 
-          ## Usage:
+## Usage:
           ${data.usage}
 
-          ## Installation
+## Installation
           
           ${data.installation}
 
-          ## Contributing:
+## Contributing:
 
           ${data.contributing}
 
-          ## Test:
+## Test:
           ${data.tests}
 
-          ## Questions
+## Questions
 
           
-          ${data.githubusername}\n${data.email}\n Please feel free to reach me via email with additional questions
+          ${data.githubusername}
+          ${data.email}
+          Please feel free to reach me via email with additional questions
           
 
 `;

@@ -40,7 +40,7 @@ const questions = [
   }, 
 
   {
-    type: "checkbox", 
+    type: "list", 
     name: "selectlicense", 
     message: "choose a license", 
     choices: ["MIT", "GNU", "Apache", "Boost"]
@@ -92,6 +92,8 @@ function init() {
   .then((answers) => {
     // Use user feedback for... whatever!!
     console.log(answers); 
+    //const selectedLicense=answers.selectlicense;
+    //let stringSelectLicense=JSON.stringify(selectedLicense);
     writeToFile('./utils/README.md', markdown(answers)); 
   })
   .catch((error) => {
@@ -109,6 +111,7 @@ function init() {
 
 // Function call to initialize app
 init();
+
 
 
 
