@@ -17,7 +17,7 @@ const questions = [
 
   {
     type: 'input',
-    name: 'Description', 
+    name: 'description', 
     message: "Description of Project"
   }, 
 
@@ -40,10 +40,10 @@ const questions = [
   }, 
 
   {
-    type: "checkbox", 
+    type: "list", 
     name: "selectlicense", 
     message: "choose a license", 
-    choices: ["MIT", "ISC", "MSC"]
+    choices: ["MIT", "GNU", "Apache", "Boost"]
   }, 
 
   {
@@ -56,9 +56,16 @@ const questions = [
   {
     type: "input", 
     name: "email", 
-    message: "Put in your github email", 
+    message: "Put in your Github email", 
     
   }, 
+
+  {
+    type: "input", 
+    name: "tests", 
+    message: "Name Some tests you can run", 
+
+  }
 
 
 
@@ -85,6 +92,8 @@ function init() {
   .then((answers) => {
     // Use user feedback for... whatever!!
     console.log(answers); 
+    //const selectedLicense=answers.selectlicense;
+    //let stringSelectLicense=JSON.stringify(selectedLicense);
     writeToFile('./utils/README.md', markdown(answers)); 
   })
   .catch((error) => {
@@ -102,6 +111,7 @@ function init() {
 
 // Function call to initialize app
 init();
+
 
 
 
