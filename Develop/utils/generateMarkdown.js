@@ -98,9 +98,9 @@ ${renderLicenseSection(data.selectlicense)}
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#contributing)
-- [Testing](#test)
-- [Question](#questions)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description:
           
@@ -112,23 +112,23 @@ ${renderLicenseSection(data.selectlicense)}
 ## Usage:
           ${data.usage}
 
-## Installation
-          
-          ${data.installation}
-
-## Contributing:
+## Contribution:
 
           ${data.contributing}
 
-## Test:
+## Tests:
           ${data.tests}
 
 ## Questions
 
+Please feel free to reach me via email with additional questions. 
+
+GitHub Username: ${data.githubusername}
+
+GitHub Repo: [ReadMeFileGenRepo](${data.githubrepo})
+
+Email: ${data.email}
           
-          ${data.githubusername}
-          ${data.email}
-          Please feel free to reach me via email with additional questions
           
 
 `;
