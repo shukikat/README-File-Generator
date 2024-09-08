@@ -3,7 +3,7 @@
         
 ## Description
 
-This purpose of this project was to create a command line application to generate a README.md file based on user input. This allows the user to simply complete the README without having to manually format and provide content of the README file. 
+This purpose of this project was to create a command line application to generate a README.md file based on user input. This allows the user to simply complete the README without having to manually format and provide content of the README file. The code source for the markdown project can be found  [here](./Develop/utils/generateMarkdown.js) and for the index.js can be found [here](./Develop/index.js).
 
 ## Installation:
 

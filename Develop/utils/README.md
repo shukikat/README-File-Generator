@@ -1,44 +1,44 @@
-# This is my CLI Project
+# Title
 
         
 ## License
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
- The license for the project is [Boost] and here is the link [https://www.boost.org/LICENSE_1_0.txt]
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+ The license for the project is [MIT] and here is the link [https://opensource.org/licenses/MIT]
 
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contribution](#contributing)
-- [Testing](#test)
-- [Question](#questions)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Description:
           
-          CLI generated README 
+          Pro
 
 ## Installation:
-          Need npm install of inquirer
+          Po
 
 ## Usage:
-          Helps to dynamaically create a READ through user input
+          jj
 
-## Installation
-          
-          Need npm install of inquirer
+## Contribution:
 
-## Contributing:
+          jj
 
-          Got help from my tutor Andre Jimenez, Learning Assistant, Engineering Hacks Tutorial 
-
-## Test:
-          Can test using various inputs
+## Tests:
+          test
 
 ## Questions
 
+Please feel free to reach me via email with additional questions. 
+
+GitHub Username: skat
+
+GitHub Repo: [ReadMeFileGenRepo](https://github.com/shukikat/README-File-Generator)
+
+Email: email
           
-          skat
-          kathuriashuki@gmail.com
-          Please feel free to reach me via email with additional questions
           
 

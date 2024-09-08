@@ -55,6 +55,13 @@ const questions = [
 
   {
     type: "input", 
+    name: "githubrepo", 
+    message: "Provide link to Github Repo ", 
+    
+  }, 
+
+  {
+    type: "input", 
     name: "email", 
     message: "Put in your Github email", 
     
