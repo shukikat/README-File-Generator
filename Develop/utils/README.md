@@ -1,9 +1,9 @@
-# This is my CLI proj
+# This is my CLI Project
 
         
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
- The license for the project is [Apache] and here is the link [https://www.apache.org/licenses/LICENSE-2.0]
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+ The license for the project is [Boost] and here is the link [https://www.boost.org/LICENSE_1_0.txt]
 
 ## Table of Contents
 - [Description](#description)
@@ -15,30 +15,30 @@
 
 ## Description:
           
-          This is a CLI generated README
+          CLI generated README 
 
 ## Installation:
-          None
+          Need npm install of inquirer
 
 ## Usage:
-          Lots!!
+          Helps to dynamaically create a READ through user input
 
 ## Installation
           
-          None
+          Need npm install of inquirer
 
 ## Contributing:
 
-          None!
+          Got help from my tutor Andre Jimenez, Learning Assistant, Engineering Hacks Tutorial 
 
 ## Test:
-          tests
+          Can test using various inputs
 
 ## Questions
 
           
-          github
-          none
+          skat
+          kathuriashuki@gmail.com
           Please feel free to reach me via email with additional questions
           
 
