@@ -1,9 +1,9 @@
-# Title
+# README File Generator
 
         
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
- The license for the project is [MIT] and here is the link [https://opensource.org/licenses/MIT]
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+ The license for the project is [Apache] and here is the link [https://www.apache.org/licenses/LICENSE-2.0]
 
 ## Table of Contents
 - [Description](#description)
@@ -15,30 +15,30 @@
 
 ## Description:
           
-          Pro
+          This is a CLI app to accept user input to create README file
 
 ## Installation:
-          Po
+          Get Inquirer Package using npm install inquirer in project path
 
 ## Usage:
-          jj
+          Use node index.js to inititate and respond to prompts until complete
 
 ## Contribution:
 
-          jj
+          Had help from tutors and tutorials
 
 ## Tests:
-          test
+          Make sure Read me file generates and preview looks as expected
 
 ## Questions
 
 Please feel free to reach me via email with additional questions. 
 
-GitHub Username: skat
+GitHub Username: shukikat
 
 GitHub Repo: [ReadMeFileGenRepo](https://github.com/shukikat/README-File-Generator)
 
-Email: email
+Email: kathuriashuki@gmail.com
           
           
 
