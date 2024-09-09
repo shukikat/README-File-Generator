@@ -35,6 +35,9 @@ Lastly, I found this youtube tutorial https://www.youtube.com/watch?v=o8hkjz1TQu
 
 Please refer to LICENSE in repo. 
 
+## Link to Video
+[Walkthrough Tutorial](https://drive.google.com/file/d/10l27ldOMKqkf7E9pOUGCrRCwlK0Gszvj/view?usp=sharing)
+
 ## Questions
 
 For additional questions please contact me via email at kathuriashuki@gmail.com or github: https://github.com/shukikat/
